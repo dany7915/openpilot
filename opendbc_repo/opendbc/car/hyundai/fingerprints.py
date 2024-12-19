@@ -1168,6 +1168,17 @@ FW_VERSIONS = {
       b'\xf1\x00GL3_ RDR -----      1.00 1.02 99110-L8000         ',
     ],
   },
+  CAR.KIA_K9_2019: {
+    (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00RJ__ SCC FHCUP      1.01 1.01 99110-J6000         ',
+    ],
+    (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00RJ  MDPS R 1.00 1.00 56320-J6000 8118',
+    ],
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00RJ  MFC  AT KOR LHD 1.00 1.01 99211-J6000 180228',
+    ],
+  },
   CAR.HYUNDAI_STARIA_4TH_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00US4 MFC  AT KOR LHD 1.00 1.06 99211-CG000 230524',
